@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/fonts.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Tapsi Demo</title>
+    <title>Tapsi</title>
     <meta
       name="description"
       content="این وبسایت توسط صاحب محمدی به عنوان دوره طراحی حرفه ای رسپانسیو وب آماده شده است"
@@ -23,9 +23,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
+    <!-- Header & Navbar Section -->
     <header class="main-header">
       <nav class="nav container">
         <a href="#">
@@ -47,6 +47,7 @@
         </ul>
       </nav>
     </header>
+    <!-- Hero Section -->
     <section class="hero-section">
       <picture>
         <source
@@ -82,7 +83,11 @@
           type="image/png"
           media="(min-width: 1024px)"
         />
-        <img alt="phone" class="banner-phone" />
+        <img
+          alt="phone"
+          class="banner-phone"
+          src="assets/images/mockup-phone.png"
+        />
       </picture>
       <div class="hero-wrapper container">
         <div class="intro-btn">
@@ -127,10 +132,9 @@
         </div>
       </div>
     </section>
+    <!-- Services Section -->
     <section class="services container block">
-      <h2 class="services__title block-heading block-heading">
-        سرویس های تپسی
-      </h2>
+      <h2 class="services__title block-heading">سرویس های تپسی</h2>
       <div class="services__tabs">
         <a class="tab active" data-tab-target="nav-classic-tab">
           <img src="assets/images/cc-classic.png" alt="tapsi-classic-icon" />
@@ -245,12 +249,8 @@
         </div>
       </div>
     </section>
-    <section
-      class="feature container block"
-      data-aos="fade-right"
-      data-aos-duration="1000"
-      data-aos-easing="ease-in-out"
-    >
+    <!-- Feature Section -->
+    <section class="feature container block">
       <div class="feature__image">
         <img src="assets/images/i-mac-1.png" alt="i-mac" />
       </div>
@@ -265,12 +265,8 @@
         <button class="btn btn--primary">ورود و ثبت نام سازمانی</button>
       </div>
     </section>
-    <section
-      class="feature container block charge"
-      data-aos="fade-left"
-      data-aos-duration="1000"
-      data-aos-easing="ease-in-out"
-    >
+    <!-- Feature Section -->
+    <section class="feature container block charge">
       <div class="feature__image">
         <img src="assets/images/macbook.webp" alt="macbook" />
       </div>
@@ -285,6 +281,7 @@
         <button class="btn btn--primary">خرید کد اعتبار و تخفیف</button>
       </div>
     </section>
+    <!-- Plan & Card Section -->
     <section class="container block">
       <h2 class="block__heading">تعرفه ویژه مشتریان</h2>
       <div class="block-plan">
@@ -355,7 +352,9 @@
         </div>
       </div>
     </section>
+    <!-- Travell Section -->
     <section class="container travell block">
+      <h2 class="block-heading">جوایز راننده برتر</h2>
       <div class="travell__slides">
         <div class="travell__slide">
           <div class="slide__img">
@@ -510,6 +509,7 @@
         </div>
       </div>
     </section>
+    <!-- Select-Type Section -->
     <section class="container block">
       <h2 class="block__heading">انتخاب راننده</h2>
       <div class="select-type">
@@ -523,6 +523,7 @@
         </div>
       </div>
     </section>
+    <!-- Accordion Section -->
     <section class="container block">
       <h2>سوابق راننده</h2>
       <div class="accordion__wrapper">
@@ -591,6 +592,7 @@
         </div>
       </div>
     </section>
+    <!-- Contact-us Section -->
     <section class="container block">
       <h2 class="block__heading">تماس با ما</h2>
       <div class="contact-us">
@@ -656,6 +658,7 @@
         </div>
       </div>
     </section>
+    <!-- Footer Section -->
     <footer class="main-footer block">
       <div class="container footer">
         <div class="footer__item">
@@ -749,10 +752,6 @@
         </div>
       </div>
     </footer>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
     <script src="./js/main.js"></script>
   </body>
 </html>
